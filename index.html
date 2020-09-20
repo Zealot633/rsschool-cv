@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./assets/taoismo.svg" type="image/x-icon">
+    <title>HTML, CSS & Git Basics</title>
+
+    <style>
+        @font-face {
+            font-family: 'Poppins';
+            src: url('./assets/Poppins-Regular.ttf');
+        }
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        body {
+            width: 100%;
+            height: 600px;
+            background: rgb(218, 212, 212);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+       h1 {
+           width: 500px;
+           margin: auto;
+           font-family: 'Poppins',sans-serif;
+           text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+       }
+
+        .main {
+            width: 900px;
+            height: 20%;
+           
+        }
+        
+        .content {
+            display: flex;            
+            width: 950px;
+            height: 250px;
+            margin: auto;
+            align-items: center;
+            justify-content: space-between;
+            font-family: 'Poppins',sans-serif;
+            font-size: 15px;
+            
+        }
+        .list { 
+            padding: 0 0 0 20px;
+            margin: 0;                  
+            height: 216px;
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        .list li {
+            display: flex;
+            height: 18px;
+            width: 100%;
+        }
+        .list li img {
+            margin-right: 7px;
+        }
+        
+       .me img {
+           display: block;
+           border-radius: 5px;
+           margin-right: 5px;
+           box-shadow: 3px 3px 5px 2px rgba(0, 0, 0, 0.4);
+       }
+
+    </style>
+</head>
+<body>
+    <main>
+       <h1>My awesome resume!!</h1> 
+       <div class="content">
+        
+    <ul class="list">
+        <li><img src="./assets/medalla.svg" alt="marker" width="20" height="20">Eduard Korkuts</li>
+        <li><img src="./assets/medalla.svg" alt="marker" width="20" height="20">Contacts: Zealottpkr@gmail.com  +375 44 7689823</li>
+        <li><img src="./assets/medalla.svg" alt="marker" width="20" height="20"> i am studying programming because it's "magic" and i can't help surprising at its wonders.</li>
+        <li><img src="./assets/medalla.svg" alt="marker" width="20" height="20">HTML <img src="./assets/html-5.svg" alt="html" width="15" height="15"> CSS <img src="./assets/css.svg" alt="html" width="15" height="15"> JS <img src="./assets/java.svg" alt="html" width="16" height="16"> React<img src="./assets/react.svg" alt="html" width="15" height="15"> Sass  <img src="./assets/sass.svg" alt="html" width="17" height="17"> Less <img src="./assets/less.svg" alt="html" width="17" height="17"> Git <img src="./assets/git.svg" alt="html" width="17" height="17"> (level of knowledge about average).</li>
+        <li><img src="./assets/medalla.svg" alt="marker" width="20" height="20">I study on my own, read books, watch Vladilen Minin's channel and DevED.</li>
+        <li><img src="./assets/medalla.svg" alt="marker" width="20" height="20">English level A2.</li>        
+    </ul>
+       <div class="me">
+          <img src="./assets/me.jpg" alt="me" width="162" height="216"> 
+       </div> 
+
+       </div> 
+       
+    </main>
+   
+</body>
+</html>
